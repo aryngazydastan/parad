@@ -17,7 +17,7 @@
 
 .bg {
   
-  background-image: url(poview.jpg);
+  background-image: asset-data-url('poview.png');
   position: fixed; 
   top: 0; 
   left: 0; 
@@ -28,7 +28,7 @@
 }
 
 h5 {
-	color: white;
+	font-color: white;
 	width: 700px;
 	text-align: center;
 	margin-left: 300px;
