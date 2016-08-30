@@ -10,14 +10,15 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
 
 
 #bg {
   
-  background-image: url("poview.png");
+  background-image: image-url("poview.png");
   position: fixed; 
   top: 0; 
   left: 0; 
@@ -25,12 +26,4 @@
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
-}
-
-h5 {
-	color: white;
-	width: 700px;
-	text-align: center;
-	margin-left: 300px;
-	margin-top: 100px;
 }
