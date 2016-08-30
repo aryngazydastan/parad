@@ -17,7 +17,7 @@
 
 .bg {
   
-  background-image: url('<%= asset_path('poview.png') %>');
+  background-image: url('poview.png');
   position: fixed; 
   top: 0; 
   left: 0; 
