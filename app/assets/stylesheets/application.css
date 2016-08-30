@@ -19,8 +19,8 @@
   
   background-image: url('poview.png');
   position: fixed; 
-  top: 0; 
-  left: 0; 
+  
+  
 	
   /* Preserve aspet ratio */
   min-width: 100%;
